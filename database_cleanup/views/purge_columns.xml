@@ -24,9 +24,9 @@
         </field>
     </record>
 
-    <record id="purge_column_line_tree" model="ir.ui.view">
+    <record id="purge_column_line_list" model="ir.ui.view">
         <field name="model">cleanup.purge.line.column</field>
-        <field name="inherit_id" ref="tree_purge_line" />
+        <field name="inherit_id" ref="list_purge_line" />
         <field name="mode">primary</field>
         <field name="arch" type="xml">
             <field name="name" position="after">

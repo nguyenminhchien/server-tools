@@ -22,9 +22,9 @@
         </field>
     </record>
 
-    <record id="purge_field_line_tree" model="ir.ui.view">
+    <record id="purge_field_line_list" model="ir.ui.view">
         <field name="model">cleanup.purge.line.field</field>
-        <field name="inherit_id" ref="tree_purge_line" />
+        <field name="inherit_id" ref="list_purge_line" />
         <field name="mode">primary</field>
         <field name="arch" type="xml">
             <field name="name" position="after">

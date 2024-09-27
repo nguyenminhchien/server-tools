@@ -27,9 +27,9 @@
         >action = env.get('cleanup.create_indexes.wizard').get_wizard_action()</field>
     </record>
 
-    <record id="cleanup_create_indexes_line_view_tree" model="ir.ui.view">
+    <record id="cleanup_create_indexes_line_view_list" model="ir.ui.view">
         <field name="model">cleanup.create_indexes.line</field>
-        <field name="inherit_id" ref="tree_purge_line" />
+        <field name="inherit_id" ref="list_purge_line" />
         <field name="mode">primary</field>
         <field name="arch" type="xml">
             <button name="purge" position="attributes">
